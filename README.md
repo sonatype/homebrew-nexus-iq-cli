@@ -26,6 +26,6 @@ If you experience any issues please visit [our Support page](https://support.son
 
 Once the repository is tapped by a regular installation (as above), you can locally develop and test
 by updating the code in the tapped directory or by checking out other branches. Find Homebrew's clone
-of the repository at `$(brew --repo)/Library/Taps/sonatype/homebrew-nexus-iq-cli`
+of the repository at `$(brew --repo)/Library/Taps/sonatype/homebrew-nexus-iq-cli`.
 
 To try local changes, reinstall the nexus-iq-cli: `brew reinstall --cask nexus-iq-cli`
