@@ -5,14 +5,14 @@
 #
 
 cask "nexus-iq-cli" do
-  version "1.129.0-01"
-  sha256 "68e324bc0e9d07d2db523dde02d8187967dcbfb3ffedb0332404ead671ef75c6"
-  url "https://download.sonatype.com/clm/scanner/nexus-iq-cli-1.129.0-01+371-mac.pkg"
+  version "1.130.0-01"
+  sha256 "0e91efbe5544093c1116c5c77629aa5c57ab081567fe9572b2d16d91b3537ccb"
+  url "https://download.sonatype.com/clm/scanner/nexus-iq-cli-1.130.0-01+389-mac.pkg"
   name "Nexus Native IQ CLI"
   desc "Command line utility for application scanning with Nexus IQ"
   homepage "https://help.sonatype.com/integrations/nexus-iq-cli"
   depends_on macos: ">= :mojave"
-  pkg "nexus-iq-cli-1.129.0-01 371-mac.pkg"
+  pkg "nexus-iq-cli-1.130.0-01 389-mac.pkg"
   uninstall pkgutil: [
     "com.sonatype.nexus.iq.cli"
   ]
