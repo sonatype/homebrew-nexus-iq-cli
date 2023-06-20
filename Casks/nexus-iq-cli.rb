@@ -6,7 +6,7 @@
 
 cask "nexus-iq-cli" do
   version "1.163.0-01"
-  sha256 "ccc6fa1a2cb89954bd88e2c6fa7fd1aadecf7356"
+  sha256 "62cf68695b6c71e131e5e849056f77643a196de289022eacbaffd0d9890984ae"
   url "https://download.sonatype.com/clm/scanner/nexus-iq-cli-1.163.0-01+646-mac.pkg"
   name "Nexus Native IQ CLI"
   desc "Command line utility for application scanning with Nexus IQ"
