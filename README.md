@@ -20,8 +20,6 @@ brew tap sonatype/nexus-iq-cli
 brew install --cask nexus-iq-cli
 ```
 
-If you experience any issues please visit [our Support page](https://support.sonatype.com/hc/en-us/sections/203012548-Nexus-IQ-Server) for resources or to report your problem.
-
 ## Local Development and Testing
 
 Once the repository is tapped by a regular installation (as above), you can locally develop and test
