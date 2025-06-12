@@ -8,9 +8,9 @@ cask "nexus-iq-cli" do
   arch arm: "aarch64", intel: "x86_64"
   pkg_name = on_arch_conditional arm: "aarch_64", intel: "x86_64"
 
-  version "2.4.2-01"
-  sha256 arm:   "42ae2442ae82cc159282e159eae4edd95ac7782214ed032dc53a5bd82779a04d",
-         intel: "adcd2becfdfbd0848124a121d27d8b0d9358483373f291a1556f33cf35a40e6a"
+  version "2.4.3-01"
+  sha256 arm:   "85264ee61d39779856fcd6ed5dc35696c1888b8404e1025a18dd4b891dad05a9",
+         intel: "b192a5b024c5b1e8faee04cf7e955fac955be3bb9c3d00cda81d5d28d8e52e04"
 
   url "https://download.sonatype.com/clm/scanner/nexus-iq-cli-#{version}-osx-#{pkg_name}.pkg"
 
