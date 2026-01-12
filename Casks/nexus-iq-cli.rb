@@ -18,11 +18,10 @@ cask "nexus-iq-cli" do
   desc "Command line utility for application scanning with Nexus IQ"
   homepage "https://links.sonatype.com/products/nxiq/doc/integrations/iq-cli"
   on_macos do
-    if MacOS.version < :mojave
+    if MacOS.version < :sonoma
       odie "This formula requires macOS Mojave or newer"
     end
   end
-
   pkg "nexus-iq-cli-#{version}-osx-#{pkg_name}.pkg"
   uninstall pkgutil: [
     "com.sonatype.nexus.iq.cli"
