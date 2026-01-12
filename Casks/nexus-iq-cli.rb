@@ -18,8 +18,8 @@ cask "nexus-iq-cli" do
   desc "Command line utility for application scanning with Nexus IQ"
   homepage "https://links.sonatype.com/products/nxiq/doc/integrations/iq-cli"
   on_macos do
-    if MacOS.version < :sonoma
-      odie "This formula requires macOS Mojave or newer"
+    if MacOS.version < :big_sur
+      odie "This formula requires macOS Big Sur (11.0) or newer"
     end
   end
   pkg "nexus-iq-cli-#{version}-osx-#{pkg_name}.pkg"
