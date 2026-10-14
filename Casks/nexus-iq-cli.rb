@@ -8,7 +8,7 @@ cask "nexus-iq-cli" do
   arch arm: "aarch64", intel: "x86_64"
   pkg_name = on_arch_conditional arm: "aarch_64", intel: "x86_64"
 
-  version "2.14.0-01"
+  version "2.15.0-01"
   sha256 arm:   "",
          intel: ""
 
